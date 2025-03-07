@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  height: 100%;
+  overflow: hidden;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  outline: 0;
+  border: 0;
+}
+
+#drawingTools {
+  border: 2px solid black;
+  margin: 20px auto;
+  width: 80%;
+  height: 5em;
+}
+
+#colors {
+  width: 98%;
+  height: 1em;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#colors button {
+  width: 5.5em;
+  height: 2em;
+  margin: 0 0.2em;
+  padding: auto;
+  float: left;
+  border-radius: 100vw;
+}
+
+#black {
+  background: black;
+}
+#pink {
+  background: pink;
+}
+#red {
+  background: red;
+}
+#green {
+  background: green;
+}
+#blue {
+  background: blue;
+}
+#brown {
+  background: brown;
+}
+#orange {
+  background: orangered;
+}
+#purple {
+  background: purple;
+}
+#yellow {
+  background: yellow;
+}
+#violet {
+  background: violet;
+}
+
+#otherTools {
+  width: 100%;
+  height: 3em;
+  /* border: 1px solid blue; */
+}
+
+#otherTools button {
+  height: 2em;
+  width: 33%;
+  margin: 1% 7%;
+
+  color: black;
+  cursor: pointer;
+  border-radius: 100vw;
+  cursor: pointer;
+}

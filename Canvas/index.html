@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>MoodWiz- Paint</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-aos="fade-in" data-aos-duration="1000">
+    <section>
+      <div id="drawingTools">
+        <div id="colors">
+          <button id="black" onclick="changeColor('black')"></button>
+          <button id="pink" onclick="changeColor('pink')"></button>
+          <button id="red" onclick="changeColor('red')"></button>
+          <button id="green" onclick="changeColor('green')"></button>
+          <button id="blue" onclick="changeColor('blue')"></button>
+          <button id="brown" onclick="changeColor('brown')"></button>
+          <button id="orange" onclick="changeColor('orange')"></button>
+          <button id="yellow" onclick="changeColor('yellow')"></button>
+          <button id="purple" onclick="changeColor('purple')"></button>
+          <button id="violet" onclick="changeColor('violet')"></button>
+        </div>
+
+        <div id="otherTools">
+          <button id="clearCanvas" onclick="clearCanvas()">Clear Screen</button>
+          <button id="Eraser" onclick="changeColor('white')">Eraser</button>
+        </div>
+      </div>
+
+      <canvas id="canvas"></canvas>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+  </body>
+</html>
